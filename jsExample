@@ -1,0 +1,35 @@
+function onLoad(hi) { //onLoad function
+  return hi * hi //returns squared number
+}
+var x = onLoad() //x is equal to the function value
+if (x == 9) { //if statemebnt
+    console.log("hello")
+  } else {
+    console.log("hey")
+  };
+  //this if statemment depends on the value of x, or the onLoad function
+function thisFunction(g) {
+  console.log("hello")
+}
+  var b = thisFunction("hello")
+  if (b == "hello") {
+    console.log("What's ur fav color?")
+  } else {
+    var y = "hello"
+    if (y == "blue") {
+      console.log("cool")
+    } else if (y == "green") {
+      console.log("cool")
+    } else {
+      var x = y
+      if (y == "red" ) {
+        console.log("syntax error")
+      } else if (y == 4) {
+        console.log("hello")
+      } else {
+        console.log("hey")
+      }
+      
+    }
+  }
+
