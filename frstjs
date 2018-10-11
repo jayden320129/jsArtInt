@@ -1,9 +1,24 @@
-function thisFunction(x) {
-  if (x = "hello") {
+function onLoad(hi) { //onLoad function
+  return hi * hi //returns squared number
+}
+var x = onLoad() //x is equal to the function value
+if (x == 9) { //if statemebnt
     console.log("hello")
   } else {
     console.log("hey")
   };
-}
-var y = thisFunction("memes")
-console.log(y);
+  //this if statemment depends on the value of x, or the onLoad function
+
+  var b = "h";
+  if (b == "hello") {
+    console.log("What's ur fav color?")
+  } else {
+    var y = "blue"
+    if (y == "blue") {
+      console.log("cool")
+    } else if (y == "green") {
+      console.log("cool")
+    } else {
+      console.log("syntax error")
+    }
+  }
