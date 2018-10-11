@@ -14,3 +14,15 @@ function firstQuestion() {
     console.log(myFunction(3))
   }
 }
+
+//experimental if...else inside function 
+function thisFunction(x) {
+  if (thisFunction() = "hello") {
+    console.log("What would you like to talk about?")
+  } else if (thisFunction() = "hi") {
+    console.log("What would you like to talk about?")
+  } else {
+    console.log("What would you like to talk about?")
+  }
+}
+console.log(thisFunction("hello"))
