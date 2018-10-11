@@ -1,0 +1,16 @@
+function firstQuestion() {
+  function myFunction(x) {
+    return x * x
+  }
+  if (myFunction() < 3) {
+    function thisFunction() {
+      console.log("hello")
+    }
+    console.log(thisFunction());
+  } else {
+    function aFunction() {
+      console.log("hey")
+    }
+    console.log(myFunction(3))
+  }
+}
