@@ -1,28 +1,35 @@
-function firstQuestion() {
-  function myFunction(x) {
-    return x * x
-  }
-  if (myFunction() < 3) {
-    function thisFunction() {
-      console.log("hello")
-    }
-    console.log(thisFunction());
+function turnLeft() {
+  let turn;
+  turn = [17, 3];
+  let ary; 
+  ary = 15
+  if (turn == ary) {
+  } else if() {
   } else {
-    function aFunction() {
-      console.log("hey")
-    }
-    console.log(myFunction(3))
+  };
+}
+
+function turnRight() {
+  let turn;
+  turn = [17, 3];
+  let ary;
+  ary = 15;
+  if (turn == ary) {
+  } else if () {
+  } else {
   }
 }
 
-//experimental if...else inside function 
-function thisFunction(x) {
-  if (thisFunction() = "hello") {
-    console.log("What would you like to talk about?")
-  } else if (thisFunction() = "hi") {
-    console.log("What would you like to talk about?")
+function upLook() {
+  let look;
+  look = x 
+  x = 15
+  let ary;
+  ary = [15, 0]
+  if (look == ary) {
+  } else if () {
   } else {
-    console.log("What would you like to talk about?")
   }
 }
-console.log(thisFunction("hello"))
+
+
